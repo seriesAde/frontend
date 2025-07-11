@@ -7,7 +7,9 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+   
 }
+
 
 .movie-card:hover {
   transform: translateY(-5px);
@@ -70,7 +72,7 @@
 }
 
 .favorite-btn.active {
-  color: #ff4757;
+  color: red;
 }
 
 .rating-select {
