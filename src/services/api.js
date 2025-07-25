@@ -13,7 +13,7 @@
 //   }
 //     const data = await response.json()
 //     return data.results
-// }hvvk
+// }
   
 const BASE_URL = "https://api.themoviedb.org/3";
 const ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlZDIxZTY2YjQ0YWYyNGFhOWUwN2YxYzcyMDgyNTMwMyIsIm5iZiI6MTc1MDk5MjMwNi43NzUsInN1YiI6IjY4NWUwNWIyNjNlZDVlMzViYjc0NGFhYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.aE5L-Ye3pdC-fo-nZ0h3XG7FCKBUzM8ZuFcfDrtRHac"; 
