@@ -1,62 +1,31 @@
-.zig-cache/
-zig-out/
-# Node modules (this is a must!)
-node_modules/
+# dependencies
+/node_modules
 
-# Build output
-/dist
+# build outputs
 /build
+/dist
 
-# System files
+# environment variables
+.env
+.env.local
+.env.*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# coverage reports
+/coverage
+
+# editor folders
+.vscode/
+.idea/
+
+# OS files
 .DS_Store
 Thumbs.db
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Environment variables / secrets
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Editor-specific
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
-
-# OS-specific
-*.swp
-*.swo
-
-# Mac-specific
-*.DS_Store
-
-# Optional: coverage reports
-coverage/
-
-# Optional: local test reports
-jest-test-results.json
-
-# Optional: lock files (only if you don't want to commit them — most teams do!)
-# package-lock.json
-# yarn.lock
-
-# Storybook build output (if using Storybook)
-.out/
-
-# Next.js output (if using Next.js)
-.next/
-
-# Vercel output
+# deployment config
 .vercel/
-
-# Parcel cache
-.cache/
-
-# Misc
-*.log
+.netlify/
